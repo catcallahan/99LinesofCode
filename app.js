@@ -3,7 +3,7 @@ let friends = ['Avera', 'Brad', 'John', 'Mollie', 'Abby']
 function linesOfCode(friends) {
     for (i = 0; i < friends.length; i++) {
         console.log(friends[i] + ':');
-        for (a = 100; a > 0; a--) {
+        for (a = 99; a > 0; a--) {
 
             if (a < 2) {
                 console.log(a + " line of code in the file, " + a + " line of code; " + friends[i] + " strikes one out, clears it all out, " + (a - 1) + " lines of code in the file");
